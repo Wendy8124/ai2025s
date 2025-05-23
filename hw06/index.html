@@ -154,8 +154,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
-    </div>
+      其實我是想做成霍爾的移動城堡的霍爾換衣服的動態，但看起來很像是模特，看來提示詞需要再修改才可以達到想要的效果，但看起來也還不錯!如果可以長得和原版更相似就好了
   </div>
 
   <!-- ------------------------------------------------>
@@ -170,22 +169,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - Simple baseline - Comfy UI 環境設定完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - Medium baseline - 生成角色的圖片</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - Strong baseline - 生成完整角色動畫</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" ></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -195,16 +194,67 @@
   </div>
 
   <!-- ------------------------------------------------>
+  <div class="row hw12">
+    <div class="col-md-12 twenty">    
+      <figure>
+        <figcaption>Comfy UI 環境設定完成</figcaption>
+
+        <input type="button" name="back" onclick="location.href='https://civitai.com/models/61643?modelVersionId=67841'" value="Checkpoint連結">
+        <input type="button" name="back" onclick="location.href='https://civitai.com/models/69977/chibi-laugh'" value="LoRA連結">
+
+        
+       Simple baseline - Comfy UI 環境設定完成
+        
+        <img src="Comfy UI.png" width="100%"/>
+      </figure>
+      </div>
+    </div>
+<!-- ------------------------------------------------>
+
+  <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <figure>
+        <figcaption>Medium baseline - 生成角色的圖片</figcaption>
+        <img src="霍爾圖.png" width="100%"/>
+        使用提示詞: ""0" :" (solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
+        "10" :"detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
+        "20" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
+        "30" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
+        "40" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
+        "50" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
+        "60" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
+        "70" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
+        "80" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+        "90" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+        "100" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+        "110" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+      </figure>
     </div>
   </div>
 
-  <!-- ------------------------------------------------>
-
+  
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+      <figure>
+        <figcaption>Strong baseline - 生成完整角色動畫</figcaption>
+      <video id="video1" style="width:100%;max-width:100%;" controls="">
+        <source src="https://github.com/Wendy8124/ai2025s/blob/main/hw06/%E9%9C%8D%E7%88%BE.mp4" type="video/mp4">
+        使用提示詞: ""0" :" (solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
+        "10" :"detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
+        "20" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
+        "30" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
+        "40" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
+        "50" :"(solo), detailed eyes, 1boy, black hair, blue eyes, white shirt, jewelry, earrings, short hair, black pants, flowers, lake, mountains, trees,",
+        "60" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
+        "70" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,",
+        "80" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+        "90" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+        "100" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+        "110" :"(solo), detailed eyes, 1boy, blonde hair, blue eyes, popped collar, high collar, bangs, white shirt, jewelry, jacket, coat, earrings, stone furnace, interior, night,walk,lake, mountains, trees,",
+      </video>
+    </div>
+  </div>
   <!-- ------------------------------------------------>
 
 
